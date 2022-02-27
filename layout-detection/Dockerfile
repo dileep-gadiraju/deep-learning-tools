@@ -21,9 +21,8 @@ RUN pip install --upgrade pip setuptools wheel &&\
 RUN pip install jupyter_http_over_ws && \
     jupyter serverextension enable --py jupyter_http_over_ws
 
-#RUN pip3 install google-colab --user
-RUN conda install -c conda-forge google-colab -y
 RUN apt install -y curl
+
 
 RUN apt-get install -y make git
 RUN pip install torch
@@ -32,6 +31,7 @@ RUN pip install 'git+https://github.com/facebookresearch/detectron2.git#egg=dete
 RUN apt-get install poppler-utils
 RUN apt install tesseract-ocr -y
 RUN apt install tesseract-ocr-script-latn -y
+RUN apt-get install libfreetype6-dev -y
 RUN pip install pillow==4.1.1
 
 RUN echo "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
