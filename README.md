@@ -2,6 +2,7 @@
 
 1. Jupyter Notebook docker container with Layout Detection deep learning dependencies. 
    This container runtime can be used as runtime in Google Colab to save time.
-   Refer /layout-detection.
+   Refer   /layout-detection-explorer.
+.
 
 2. 
