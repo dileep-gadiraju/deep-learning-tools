@@ -1,0 +1,4 @@
+SkellefteaKraft:
+  MODEL_PATH: https://mestrodatalake.blob.core.windows.net/tarentofiles/invoice_models/SkellefteaKraft/model_0024999.pth?sp=r&st=2022-01-06T12:50:25Z&se=2022-05-10T20:50:25Z&spr=https&sv=2020-08-04&sr=b&sig=ZVFEfi6rxaHtlIIWOblnL7heUQkhvssbrRJFXTy%2Bi5Y%3D
+  CONFIG: /home/jovyan/work/SkellefteaKraft/config.yaml
+  
