@@ -1,12 +1,12 @@
 # Docker container for Layout Detection troubleshooting.
 
-1. `docker build . -t layout-detection-explorer:1.0-latest`
+1. `docker build . -t layout-detection-ocr-explorer:1.0-latest`
 
-2. `docker run -p 8888:8888 --name layout-detection-explorer -v /Users/dileep.gadiraju/projects/deep-learning-tools/layout-detection/troubleshoot:/home/jovyan/work -it layout-detection-explorer:1.0-latest`
+2. `docker run -p 8888:8888 --name layout-detection-ocr-explorer -v /Users/dileep.gadiraju/projects/deep-learning-tools/layout-detection/troubleshoot:/home/jovyan/work -it layout-detection-ocr-explorer:1.0-latest`
 
-3. `docker rm layout-detection-explorer`
+3. `docker rm layout-detection-ocr-explorer`
 
-4. `docker exec -it layout-detection-explorer /bin/bash`
+4. `docker exec -it layout-detection-ocr-explorer /bin/bash`
 
 ###### Once the container is up , copy the URL in below pattern from container logs to Google Colab "Connect to local runtime" dialog and replace 127.0.0.1 with localhost. Should be able to connect Google colab to local docker container with all dependencies.
 
