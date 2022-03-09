@@ -7,3 +7,6 @@ base_dir
 info.logs
 *.log
 .DS_Store
+layout-detection-ocr-explorer/.DS_Store
+layout-detection-ocr-explorer/troubleshoot/.DS_Store
+layout-detection-ocr-explorer/troubleshoot/SkellefteaKraft/.DS_Store
