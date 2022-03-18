@@ -37,6 +37,4 @@ RUN pip install pillow==4.1.1
 RUN echo "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
 RUN echo "c.NotebookApp.allow_origin = '*'" >> ~/.jupyter/jupyter_notebook_config.py
 
-COPY notebook /home/jovyan/notebook
-
 USER $NB_UID
