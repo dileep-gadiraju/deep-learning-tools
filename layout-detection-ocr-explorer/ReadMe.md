@@ -1,5 +1,7 @@
 # Docker container for Layout Detection troubleshooting.
 
+Copy `SkellefteaKraft.pth` , `judgement_prima_table_layout_modelv3.pth models` to `deep-learning-tools/layout-detection-ocr-explorer/troubleshoot/models` folder.
+
 1. `docker build . -t layout-detection-ocr-explorer:1.0-latest`
 
 2. `docker run -p 8888:8888 --name layout-detection-ocr-explorer -v <root_dir_full_path>/deep-learning-tools/layout-detection-ocr-explorer/troubleshoot:/home/jovyan/work -it layout-detection-ocr-explorer:1.0-latest`
