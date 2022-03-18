@@ -1,4 +1,4 @@
-# Docker container for Layout Detection troubleshooting.
+# Docker container for Layout Detection & OCR exploration.
 
 Copy `SkellefteaKraft.pth` , `judgement_prima_table_layout_modelv3.pth models` to `deep-learning-tools/layout-detection-ocr-explorer/troubleshoot/models` folder.
 
