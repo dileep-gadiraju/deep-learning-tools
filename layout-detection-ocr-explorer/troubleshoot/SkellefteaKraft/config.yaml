@@ -271,7 +271,7 @@ MODEL:
     NAME: SemSegFPNHead
     NORM: GN
     NUM_CLASSES: 8
-  WEIGHTS: https://anuvaad-pubnet-weights.s3-us-west-2.amazonaws.com/judgement_prima_table_layout_modelv3.pth
+  WEIGHTS: /home/jovyan/work/models/judgement_prima_table_layout_modelv3.pth
 OUTPUT_DIR:  /home/jovyan/work/SkellefteaKraft/prima/outputs
 SEED: -1
 SOLVER:

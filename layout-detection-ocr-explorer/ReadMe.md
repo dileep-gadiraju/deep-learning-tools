@@ -2,7 +2,7 @@
 
 1. `docker build . -t layout-detection-ocr-explorer:1.0-latest`
 
-2. `docker run -p 8888:8888 --name layout-detection-ocr-explorer -v /Users/dileep.gadiraju/projects/deep-learning-tools/layout-detection-ocr-explorer/troubleshoot:/home/jovyan/work -it layout-detection-ocr-explorer:1.0-latest`
+2. `docker run -p 8888:8888 --name layout-detection-ocr-explorer -v <root_dir_full_path>/deep-learning-tools/layout-detection-ocr-explorer/troubleshoot:/home/jovyan/work -it layout-detection-ocr-explorer:1.0-latest`
 
 3. `docker rm layout-detection-ocr-explorer`
 
