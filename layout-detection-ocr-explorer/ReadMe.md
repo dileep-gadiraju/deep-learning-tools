@@ -6,7 +6,7 @@ Copy `SkellefteaKraft.pth` , `judgement_prima_table_layout_modelv3.pth models` t
 
 2. `docker run -p 8888:8888 --name layout-detection-ocr-explorer -v <root_dir_full_path>/deep-learning-tools/layout-detection-ocr-explorer/troubleshoot:/home/jovyan/work -it layout-detection-ocr-explorer:1.0-latest`
 
-3. `docker rm layout-detection-ocr-explorer`
+3. if already container exists with this name , remove using `docker rm layout-detection-ocr-explorer`
 
 4. `docker exec -it layout-detection-ocr-explorer /bin/bash`
 
